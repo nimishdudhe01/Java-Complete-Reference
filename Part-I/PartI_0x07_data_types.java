@@ -1,17 +1,23 @@
-class PartI_0x07_data_types{
+class PartI_0x07_data_types{ 
+	/*
+		Data types refer to the classification of different types of data that a 
+		programming language can handle. A data type defines the type of value 
+		that a variable or expression can have, the operations that can be 
+		performed on it, and how the value is stored in memory
+	*/
 	public static void main(String args[]){
 
 	// Integer Data Types(long - 64 bit, int - 32 bit, short - 16 bit, byte - 8 bit)
-	byte a = 127;
+	byte a = 0x7f;
 	System.out.println(a);
 
-	short b = 32767;
+	short b = 0x7fff;
 	System.out.println(b);
 
-	int c = 2147483647;
+	int c = 0x7fffffff;
 	System.out.println(c);
 
-	long d = 2147483647;
+	long d = 0x7fffffffffffffffL;
 	System.out.println(d);
 
 	// Floating-point Numbers(float, double)
