@@ -34,7 +34,8 @@ public class PartI_0x08_literals {
         System.out.println("This Is A Japanese Character: " + japchar);
 
         // String Literals
+        String hw = "Hello World!\n";
         System.out.println(hw);
     }
-    
+
 }
